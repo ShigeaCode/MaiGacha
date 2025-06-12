@@ -232,16 +232,23 @@
 
     @media (max-width: 768px) {
     .container {
-      width: 90%;
+      width: 70%;
       padding: 2rem;
     }
 
     #bannerSelector {
+      order: 2;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-      margin: 0 0 20px 0;
+      margin: 20px 0 20px 0;
       transform: none;
+    }
+
+    #gachaModal {
+      display: none;
+      flex-direction: column;
+      align-items: center;
     }
 
     .bannerBtn {
@@ -250,10 +257,11 @@
     }
 
     #gachaScreen {
+      order: 1;
       flex-direction: column;
       padding: 1.5rem;
       transform: none;
-      width: 90%;
+      width: 80%;
     }
 
     #bannerImage {
