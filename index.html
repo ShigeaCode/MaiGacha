@@ -230,6 +230,83 @@
       animation: jump 1s ease;
     }
 
+    @media (max-width: 768px) {
+    .container {
+      width: 90%;
+      padding: 2rem;
+    }
+
+    #bannerSelector {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 0 20px 0;
+      transform: none;
+    }
+
+    .bannerBtn {
+      font-size: 0.9rem;
+      padding: 8px 12px;
+    }
+
+    #gachaScreen {
+      flex-direction: column;
+      padding: 1.5rem;
+      transform: none;
+      width: 90%;
+    }
+
+    #bannerImage {
+      width: 100%;
+      height: auto;
+      margin: 0 0 20px 0;
+    }
+
+    .spinPanel p {
+      font-size: 1rem;
+    }
+
+    .spinPanel button {
+      width: 100%;
+      font-size: 0.95rem;
+    }
+
+    #volumeControl {
+      flex-direction: column;
+      bottom: 10px;
+      left: 10px;
+      gap: 5px;
+      padding: 6px;
+    }
+
+    #volumeSlider {
+      width: 80px;
+    }
+
+    #resultImage {
+      width: 150px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      padding: 1.5rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    button {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+
   </style>
 </head>
 <body>
